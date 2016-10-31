@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F58B820E1DC6345D00CD7691 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58B820D1DC6345D00CD7691 /* ReactiveObjC.framework */; };
-		F58B82121DC637DD00CD7691 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F58B82111DC637DD00CD7691 /* README.md */; };
 		F592D5411DC62C470091DE5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F592D5401DC62C470091DE5F /* main.m */; };
 		F592D5441DC62C470091DE5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F592D5431DC62C470091DE5F /* AppDelegate.m */; };
 		F592D5471DC62C470091DE5F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F592D5461DC62C470091DE5F /* FirstViewController.m */; };
@@ -314,7 +313,6 @@
 			files = (
 				F592D54A1DC62C470091DE5F /* SecondViewController.m in Sources */,
 				F592D5441DC62C470091DE5F /* AppDelegate.m in Sources */,
-				F58B82121DC637DD00CD7691 /* README.md in Sources */,
 				F592D5471DC62C470091DE5F /* FirstViewController.m in Sources */,
 				F592D5411DC62C470091DE5F /* main.m in Sources */,
 			);
@@ -477,6 +475,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -496,6 +495,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
